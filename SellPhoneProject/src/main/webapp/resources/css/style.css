@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.item{
+    width: 100%;
+    height: 200px;
+    background: lightblue;
+    margin-bottom: 15px;
+}*/
+
+/*==============header===============*/
+header .container-fluid {
+    background: #222;
+    padding: 16px 0;
+}
+
+body {
+    background: #e7ecf4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+.form-tim-kiem input[type=text] {
+    height: 30px;
+    line-height: 30px;
+    width: 270px;
+    padding-left: 8px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.form-tim-kiem button {
+    height: 30px;
+    width: 100px;
+    padding: 0 9px;
+    background: #eb1f27;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #eb1f27;
+    outline: none;
+}
+
+#cart a {
+    color: #fff;
+}
+
+#cart .cart {
+    width: 30px;
+    height: 30px;
+    background: #eb1f27;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+#main-menu ul {
+    margin-bottom: 15px;
+    list-style: none;
+    background: #eb1f27;
+}
+
+#main-menu ul li {
+    display: inline-block;
+}
+
+#main-menu ul li a {
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+/*==============end header===============*/
+aside img {
+    margin-bottom: 15px;
+}
+
+/*==============sản phẩm===============*/
+.title {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.item img {
+    max-width: 90%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.item p {
+    font-size: 14px;
+}
+
+.item p.ten-san-pham a {
+    color: #000;
+}
+
+.item p span.price {
+    color: #eb1f27;
+    font-weight: 600;
+}
+
+.item:hover img {
+    opacity: 0.5;
+}
+
+#san-pham-noi-bat .row, #san-pham-moi .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#san-pham-noi-bat [class*="col-"], #san-pham-moi [class*="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#san-pham-moi {
+    margin-bottom: 30px;
+}
+
+/*==============end sản phẩm===============*/
+/*==============footer===============*/
+footer {
+    background: #fff;
+    padding-top: 25px;
+}
+
+footer #logo-footer {
+    margin-bottom: 15px;
+}
+
+footer .title-footer {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+}
+
+footer .copy {
+    background: #222;
+    color: #e7ecf4;
+    padding: 12px 0;
+}
+
+@media (max-width: 768px) {
+    header .navbar-toggler {
+        display: block;
+    }
+
+    #main-menu ul li {
+        display: block;
+    }
+
+    aside#side-banner {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #main-menu {
+        display: block;
+    }
+
+    header .navbar-toggler {
+        display: none;
+    }
+}
+
+.title {
+    position: relative;
+}
+
+.title .share-button {
+    position: absolute;
+    right: 0px;
+}
+
+.price {
+    color: red;
+}
+
+.discount {
+    text-decoration: line-through;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 200px;
+}
+
+.next-prev {
+    color: black
+}
+
+.buynow {
+    display: block;
+    width: 100%
+}
+
+.show-info {
+    border-top: 1px solid #c6c8ca;;
+    border-bottom: 1px solid #c6c8ca;;
+    padding: 20px;
+}
+
+.info-main {
+    text-align: justify;
+}
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+    background-color: #343a40 !important;
+}
